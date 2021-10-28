@@ -10,5 +10,13 @@ class TicTacToe < Sinatra::Base
     erb :index
   end
 
+  get '/play' do 
+    erb :play 
+  end 
+
+  get '/move' do
+    erb :move
+  end
+
   run! if app_file == $0
 end
