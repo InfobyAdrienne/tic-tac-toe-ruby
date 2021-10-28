@@ -18,6 +18,8 @@ Build the business logic for a game of tic tac toe. It should be easy to impleme
 
 ## User stories for playing a Two Player Game (No Configuration)
 
+The MVP is made up of user story 1 and 2. 
+
 ```
 Given I start the game
 And I am prompted with a move
